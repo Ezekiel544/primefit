@@ -623,7 +623,7 @@ export default function App() {
     className="max-w-5xl mx-auto bg-[#BFFF0B] rounded-3xl p-12 md:p-16 text-center relative overflow-hidden"
     initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
   >
-    {/* Subtle dot grid pattern in background here now*/}
+    {/* Subtle dot grid pattern in background here */}
     <div
       className="absolute inset-0 opacity-20"
       style={{

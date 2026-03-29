@@ -130,16 +130,16 @@ export default function App() {
   const [featureCurrent, setFeatureCurrent] = useState(0)
   const [featureVisible, setFeatureVisible] = useState(4)
 
-  // useEffect(() => {
-  //   const update = () => {
-  //     if (window.innerWidth < 640) setFeatureVisible(1)
-  //     else if (window.innerWidth < 1024) setFeatureVisible(2)
-  //     else setFeatureVisible(4)
-  //   }
-  //   update()
-  //   window.addEventListener('resize', update)
-  //   return () => window.removeEventListener('resize', update)
-  // }, [])
+  useEffect(() => {
+    const update = () => {
+      if (window.innerWidth < 640) setFeatureVisible(1)
+      else if (window.innerWidth < 1024) setFeatureVisible(2)
+      else setFeatureVisible(4)
+    }
+    update()
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
 
   const featureTotalSlides = Math.ceil(features.length / featureVisible)
 
@@ -154,8 +154,8 @@ export default function App() {
   const padded = [...visibleCards, ...Array(Math.max(0, featureVisible - visibleCards.length)).fill(null)]
 
   // ── Trainers slider ──
-  const [trainerCurrent, setTrainerCurrent] = useState(0)
-  const [trainerVisible, setTrainerVisible] = useState(3)
+  // const [trainerCurrent, setTrainerCurrent] = useState(0)
+  // const [trainerVisible, setTrainerVisible] = useState(3)
 
   useEffect(() => {
     const update = () => {

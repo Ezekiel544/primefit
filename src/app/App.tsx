@@ -624,13 +624,13 @@ export default function App() {
     initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
   >
     {/* Subtle dot grid pattern in background hee*/}
-    <div
+    {/* <div
       className="absolute inset-0 opacity-20"
       style={{
         backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)',
         backgroundSize: '24px 24px',
       }}
-    />
+    /> */}
 
     {/* Content */}
     <div className="relative z-10">

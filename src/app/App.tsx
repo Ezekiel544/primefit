@@ -655,7 +655,7 @@ export default function App() {
     </div>
   </motion.div>
 </section>
-  {/* Footer */}
+  {/* Footer*/}
 <footer className="bg-black border-t border-gray-800 py-12 px-6">
   <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12">

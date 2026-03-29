@@ -127,8 +127,8 @@ export default function App() {
   }, [])
 
   // ── Features slider ──
-  const [featureCurrent, setFeatureCurrent] = useState(0)
-  const [featureVisible, setFeatureVisible] = useState(4)
+  // const [featureCurrent, setFeatureCurrent] = useState(0)
+  // const [featureVisible, setFeatureVisible] = useState(4)
 
   useEffect(() => {
     const update = () => {

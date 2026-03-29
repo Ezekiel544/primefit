@@ -177,7 +177,7 @@ export default function App() {
     return () => clearInterval(timer)
   }, [trainerTotalSlides])
 
-  // const visibleTrainers = trainers.slice(trainerCurrent * trainerVisible, trainerCurrent * trainerVisible + trainerVisible)
+  const visibleTrainers = trainers.slice(trainerCurrent * trainerVisible, trainerCurrent * trainerVisible + trainerVisible)
 
   // ── Other state ──
   const [isMenuOpen, setIsMenuOpen] = useState(false)

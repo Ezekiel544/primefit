@@ -155,7 +155,7 @@ export default function App() {
 
   // ── Trainers slider ──
   const [trainerCurrent, setTrainerCurrent] = useState(0)
-  // const [trainerVisible, setTrainerVisible] = useState(3)
+  const [trainerVisible, setTrainerVisible] = useState(3)
 
   useEffect(() => {
     const update = () => {

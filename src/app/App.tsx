@@ -619,10 +619,10 @@ export default function App() {
 
    {/* CTA Section */}
 <section className="py-24 px-6">
-  <motion.div
+  {/* <motion.div
     className="max-w-5xl mx-auto bg-[#BFFF0B] rounded-3xl p-12 md:p-16 text-center relative overflow-hidden"
     initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.6 }}
-  >
+  > */}
     {/* Subtle dot grid pattern in background hee*/}
     <div
       className="absolute inset-0 opacity-20"

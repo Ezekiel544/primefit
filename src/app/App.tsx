@@ -150,8 +150,8 @@ export default function App() {
     return () => clearInterval(timer)
   }, [featureTotalSlides])
 
-  const visibleCards = features.slice(featureCurrent * featureVisible, featureCurrent * featureVisible + featureVisible)
-  const padded = [...visibleCards, ...Array(Math.max(0, featureVisible - visibleCards.length)).fill(null)]
+  // const visibleCards = features.slice(featureCurrent * featureVisible, featureCurrent * featureVisible + featureVisible)
+  // const padded = [...visibleCards, ...Array(Math.max(0, featureVisible - visibleCards.length)).fill(null)]
 
   // ── Trainers slider ──
   const [trainerCurrent, setTrainerCurrent] = useState(0)

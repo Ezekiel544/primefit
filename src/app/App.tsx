@@ -157,25 +157,25 @@ export default function App() {
   const [trainerCurrent, setTrainerCurrent] = useState(0)
   const [trainerVisible, setTrainerVisible] = useState(3)
 
-  // useEffect(() => {
-  //   const update = () => {
-  //     if (window.innerWidth < 768) setTrainerVisible(1)
-  //     else if (window.innerWidth < 1024) setTrainerVisible(2)
-  //     else setTrainerVisible(3)
-  //   }
-  //   update()
-  //   window.addEventListener('resize', update)
-  //   return () => window.removeEventListener('resize', update)
-  // }, [])
+  useEffect(() => {
+    const update = () => {
+      if (window.innerWidth < 768) setTrainerVisible(1)
+      else if (window.innerWidth < 1024) setTrainerVisible(2)
+      else setTrainerVisible(3)
+    }
+    update()
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
 
   const trainerTotalSlides = Math.ceil(trainers.length / trainerVisible)
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTrainerCurrent(prev => (prev + 1) % trainerTotalSlides)
-    }, 4000)
-    return () => clearInterval(timer)
-  }, [trainerTotalSlides])
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setTrainerCurrent(prev => (prev + 1) % trainerTotalSlides)
+  //   }, 4000)
+  //   return () => clearInterval(timer)
+  // }, [trainerTotalSlides])
 
   const visibleTrainers = trainers.slice(trainerCurrent * trainerVisible, trainerCurrent * trainerVisible + trainerVisible)
 

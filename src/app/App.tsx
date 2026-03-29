@@ -168,7 +168,7 @@ export default function App() {
     return () => window.removeEventListener('resize', update)
   }, [])
 
-  const trainerTotalSlides = Math.ceil(trainers.length / trainerVisible)
+  // const trainerTotalSlides = Math.ceil(trainers.length / trainerVisible)
 
   useEffect(() => {
     const timer = setInterval(() => {

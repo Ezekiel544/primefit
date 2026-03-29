@@ -648,9 +648,9 @@ export default function App() {
           placeholder="Your Email"
           className="w-full sm:flex-1 px-6 py-4 rounded-xl text-black bg-white text-base outline-none placeholder-gray-400 border-none"
         />
-        <button className="w-full sm:w-auto px-8 py-4 bg-black text-white text-base font-bold rounded-xl hover:bg-gray-900 transition-colors whitespace-nowrap">
+        {/* <button className="w-full sm:w-auto px-8 py-4 bg-black text-white text-base font-bold rounded-xl hover:bg-gray-900 transition-colors whitespace-nowrap">
           Join Now
-        </button>
+        </button> */}
       </div>
     </div>
   </motion.div>

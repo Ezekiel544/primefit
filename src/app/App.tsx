@@ -170,12 +170,12 @@ export default function App() {
 
   const trainerTotalSlides = Math.ceil(trainers.length / trainerVisible)
 
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setTrainerCurrent(prev => (prev + 1) % trainerTotalSlides)
-  //   }, 4000)
-  //   return () => clearInterval(timer)
-  // }, [trainerTotalSlides])
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTrainerCurrent(prev => (prev + 1) % trainerTotalSlides)
+    }, 4000)
+    return () => clearInterval(timer)
+  }, [trainerTotalSlides])
 
   const visibleTrainers = trainers.slice(trainerCurrent * trainerVisible, trainerCurrent * trainerVisible + trainerVisible)
 

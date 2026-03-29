@@ -154,8 +154,8 @@ export default function App() {
   const padded = [...visibleCards, ...Array(Math.max(0, featureVisible - visibleCards.length)).fill(null)]
 
   // ── Trainers slider ──
-  const [trainerCurrent, setTrainerCurrent] = useState(0)
-  const [trainerVisible, setTrainerVisible] = useState(3)
+  // const [trainerCurrent, setTrainerCurrent] = useState(0)
+  // const [trainerVisible, setTrainerVisible] = useState(3)
 
   useEffect(() => {
     const update = () => {

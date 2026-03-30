@@ -512,7 +512,7 @@ export default function App() {
       </section>
 
       {/* Testimonials Section */}
-      {/* <section id="testimonials" className="py-24 px-6 bg-black overflow-hidden">
+      <section id="testimonials" className="py-24 px-6 bg-black overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <motion.div className="text-center mb-16" {...fadeInUp}>
             <h2 className="text-5xl md:text-7xl font-black leading-tight">
@@ -615,7 +615,7 @@ export default function App() {
 
           </div>
         </div>
-      </section> */}
+      </section>
 
    {/* CTA Section */}
 <section className="py-24 px-6">

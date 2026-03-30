@@ -642,7 +642,7 @@ export default function App() {
       </p>
 
       {/* Email input + button */}
-      <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-xl mx-auto">
+      {/* <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-xl mx-auto">
         <input
           type="email"
           placeholder="Your Email"
@@ -651,7 +651,7 @@ export default function App() {
         <button className="w-full sm:w-auto px-8 py-4 bg-black text-white text-base font-bold rounded-xl hover:bg-gray-900 transition-colors whitespace-nowrap">
           Join Now
         </button>
-      </div>
+      </div> */}
     </div>
   </motion.div>
 </section>

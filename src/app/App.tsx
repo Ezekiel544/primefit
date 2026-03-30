@@ -656,7 +656,7 @@ export default function App() {
   </motion.div>
 </section>
   {/* Footer*/}
-{/* <footer className="bg-black border-t border-gray-800 py-12 px-6">
+<footer className="bg-black border-t border-gray-800 py-12 px-6">
   <div className="max-w-7xl mx-auto">
     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12">
       <div>
@@ -697,7 +697,7 @@ export default function App() {
       <p>© 2026 PrimeFit. All rights reserved. Built with passion for fitness.</p>
     </div>
   </div>
-</footer> */}
+</footer>
 
     </div>
   )

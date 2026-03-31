@@ -300,7 +300,7 @@ export default function App() {
 </section>
 
       {/* Inspired / Features Banner */}
-      {/* <section className="py-16 px-6 bg-black">
+      <section className="py-16 px-6 bg-black">
         <div className="max-w-6xl mx-auto">
           <motion.div className="text-center mb-16" {...fadeInUp}>
             <h2 className="text-4xl md:text-6xl font-bold mb-4">
@@ -333,10 +333,10 @@ export default function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* What Sets Us Apart */}
-      <section className="py-20 px-6 bg-black">
+      {/* <section className="py-20 px-6 bg-black">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-7xl font-black leading-tight">
@@ -378,7 +378,7 @@ export default function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Train Smarter */}
       <section id="programs" className="py-24 px-6">

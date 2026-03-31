@@ -279,7 +279,7 @@ export default function App() {
       </section>
 
      {/* Brand Marquee */}
-{/* <section className="py-7 bg-black overflow-hidden border-y border-white/5">
+<section className="py-7 bg-black overflow-hidden border-y border-white/5">
   <style>{`@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }`}</style>
   <div
     className="flex w-max items-center"
@@ -297,7 +297,7 @@ export default function App() {
       </div>
     ))}
   </div>
-</section> */}
+</section>
 
       {/* Inspired / Features Banner */}
       <section className="py-16 px-6 bg-black">

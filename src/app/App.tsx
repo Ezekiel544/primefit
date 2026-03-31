@@ -258,7 +258,7 @@ export default function App() {
   )}
 </motion.nav>
       {/* Hero Section */}
-      {/* <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
+      <section id="home" className="relative min-h-screen flex items-center justify-center pt-20">
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black z-10" />
         <img src={heroImage} alt="Fitness hero" className="absolute inset-0 w-full h-full object-cover opacity-70" style={{ width: '100%', height: '90%', marginTop: '83px' }} />
         <div className="relative z-20 max-w-7xl mx-auto px-6 text-center">
@@ -276,10 +276,10 @@ export default function App() {
             </motion.button>
           </motion.div>
         </div>
-      </section> */}
+      </section>
 
      {/* Brand Marquee */}
-<section className="py-7 bg-black overflow-hidden border-y border-white/5">
+{/* <section className="py-7 bg-black overflow-hidden border-y border-white/5">
   <style>{`@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }`}</style>
   <div
     className="flex w-max items-center"
@@ -297,7 +297,7 @@ export default function App() {
       </div>
     ))}
   </div>
-</section>
+</section> */}
 
       {/* Inspired / Features Banner */}
       <section className="py-16 px-6 bg-black">

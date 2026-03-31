@@ -637,9 +637,9 @@ export default function App() {
       <h2 className="text-3xl md:text-5xl font-black text-black mb-4 leading-tight">
         Connect Engage Transform
       </h2>
-      <p className="text-black/70 text-base md:text-lg mb-10 max-w-2xl mx-auto">
+      {/* <p className="text-black/70 text-base md:text-lg mb-10 max-w-2xl mx-auto">
         Join a vibrant community for fuel motivation, engagement drives progress, and transformation
-      </p>
+      </p> */}
 
       {/* Email input + button */}
       <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-xl mx-auto">

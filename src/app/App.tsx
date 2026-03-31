@@ -25,28 +25,28 @@ import lululemon from './components/figma/lululemon.png';
 import puma from './components/figma/puma.png';
 import { AnimatePresence } from 'framer-motion'
 
-// const testimonials = [
-//   {
-//     text: "I love the variety of workouts on FitPulse. Whether it's HIIT, Yoga, or Strength Training, there's always something new to try. The progress tracking tools keep me motivated!",
-//     name: 'James T.', location: 'LA, USA', rating: 4,
-//     image: testimony,
-//   },
-//   {
-//     text: "FitPulse transformed my life! I've lost 40 pounds and gained incredible strength. The trainers are phenomenal and truly care about your success.",
-//     name: 'Jessica M.', location: 'NY, USA', rating: 5,
-//    image: testimonytwo,
-//     },
-//   {
-//     text: "Best gym experience ever! The community is supportive, the equipment is top-notch, and the results speak for themselves. Highly recommend!",
-//     name: 'Michael B.', location: 'Chicago, USA', rating: 5,
-//     image: testimonythree,
-//   },
-//   {
-//     text: "The personalized training program and nutrition guidance made all the difference. I never thought I could achieve this level of fitness.",
-//     name: 'Amanda F.', location: 'Miami, USA', rating: 5,
-//     image:testimonyfour,
-//    },
-// ]
+const testimonials = [
+  {
+    text: "I love the variety of workouts on FitPulse. Whether it's HIIT, Yoga, or Strength Training, there's always something new to try. The progress tracking tools keep me motivated!",
+    name: 'James T.', location: 'LA, USA', rating: 4,
+    image: testimony,
+  },
+  {
+    text: "FitPulse transformed my life! I've lost 40 pounds and gained incredible strength. The trainers are phenomenal and truly care about your success.",
+    name: 'Jessica M.', location: 'NY, USA', rating: 5,
+   image: testimonytwo,
+    },
+  {
+    text: "Best gym experience ever! The community is supportive, the equipment is top-notch, and the results speak for themselves. Highly recommend!",
+    name: 'Michael B.', location: 'Chicago, USA', rating: 5,
+    image: testimonythree,
+  },
+  {
+    text: "The personalized training program and nutrition guidance made all the difference. I never thought I could achieve this level of fitness.",
+    name: 'Amanda F.', location: 'Miami, USA', rating: 5,
+    image:testimonyfour,
+   },
+]
 
 const features = [
   {

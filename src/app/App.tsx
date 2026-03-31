@@ -189,17 +189,17 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // const fadeInUp = {
-  //   initial: { opacity: 0, y: 60 },
-  //   whileInView: { opacity: 1, y: 0 },
-  //   viewport: { once: true, margin: "-100px" },
-  //   transition: { duration: 0.9, ease: "easeOut" }
-  // }
+  const fadeInUp = {
+    initial: { opacity: 0, y: 60 },
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: true, margin: "-100px" },
+    transition: { duration: 0.9, ease: "easeOut" }
+  }
 
-  // const staggerContainer = {
-  //   initial: {},
-  //   whileInView: { transition: { staggerChildren: 0.1 } }
-  // }
+  const staggerContainer = {
+    initial: {},
+    whileInView: { transition: { staggerChildren: 0.1 } }
+  }
 
   return (
     <div className="bg-black text-white min-h-screen overflow-x-hidden">
@@ -279,7 +279,7 @@ export default function App() {
       </section>
 
      {/* Brand Marquee */}
-<section className="py-7 bg-black overflow-hidden border-y border-white/5">
+{/* <section className="py-7 bg-black overflow-hidden border-y border-white/5">
   <style>{`@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }`}</style>
   <div
     className="flex w-max items-center"
@@ -297,7 +297,7 @@ export default function App() {
       </div>
     ))}
   </div>
-</section>
+</section> */}
 
       {/* Inspired / Features Banner */}
       <section className="py-16 px-6 bg-black">

@@ -96,11 +96,11 @@ const trainers = [
   },
 ]
 
-const slideVariants = {
-  enter: (direction: number) => ({ x: direction > 0 ? 400 : -400, opacity: 0 }),
-  center: { x: 0, opacity: 1 },
-  exit: (direction: number) => ({ x: direction > 0 ? -400 : 400, opacity: 0 }),
-}
+// const slideVariants = {
+//   enter: (direction: number) => ({ x: direction > 0 ? 400 : -400, opacity: 0 }),
+//   center: { x: 0, opacity: 1 },
+//   exit: (direction: number) => ({ x: direction > 0 ? -400 : 400, opacity: 0 }),
+// }
 
 export default function App() {
 

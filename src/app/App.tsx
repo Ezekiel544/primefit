@@ -108,10 +108,10 @@ export default function App() {
   const [testimonialCurrent, setTestimonialCurrent] = useState(0)
   const [testimonialDirection, setTestimonialDirection] = useState(1)
 
-  const goNext = () => {
-    setTestimonialDirection(1)
-    setTestimonialCurrent(prev => (prev + 1) % testimonials.length)
-  }
+  // const goNext = () => {
+  //   setTestimonialDirection(1)
+  //   setTestimonialCurrent(prev => (prev + 1) % testimonials.length)
+  // }
 
   const goPrev = () => {
     setTestimonialDirection(-1)

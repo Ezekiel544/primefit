@@ -48,38 +48,38 @@ const testimonials = [
    },
 ]
 
-const features = [
-  {
-    title: 'Cardio Training',
-    description: 'Boost endurance and heart health with high-energy cardio sessions designed to keep you moving.',
-    icon: <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/>,
-  },
-  {
-    title: 'Strength Build',
-    description: 'Develop power and resilience through expert-guided strength training tailored to all fitness levels.',
-    icon: <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>,
-  },
-  {
-    title: 'Fat Loss',
-    description: 'Shed unwanted fat with dynamic workout routines and fat-burning strategies that deliver lasting results.',
-    icon: <path d="M13.5 .67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z"/>,
-  },
-  {
-    title: 'HIIT Workouts',
-    description: 'Maximize calorie burn and improve fitness with short, intense high-intensity interval training sessions.',
-    icon: <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/>,
-  },
-  {
-    title: 'Nutrition Guidance',
-    description: 'Fuel your body right with personalized nutrition plans crafted to complement your training goals.',
-    icon: <path d="M17 8C8 10 5.9 16.17 3.82 19.82A1 1 0 0 0 5 21c6-2 9-6 9-12zM9.27 15.73A3.49 3.49 0 0 0 7 15a3.5 3.5 0 0 0 3.5 3.5c.13 0 .25-.01.37-.02C10.62 17.62 10.1 16.6 9.27 15.73z"/>,
-  },
-  {
-    title: 'Community Support',
-    description: 'Train alongside a motivated community that pushes you to show up, stay consistent, and grow.',
-    icon: <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>,
-  },
-]
+// const features = [
+//   {
+//     title: 'Cardio Training',
+//     description: 'Boost endurance and heart health with high-energy cardio sessions designed to keep you moving.',
+//     icon: <path d="M12 21.593c-5.63-5.539-11-10.297-11-14.402 0-3.791 3.068-5.191 5.281-5.191 1.312 0 4.151.501 5.719 4.457 1.59-3.968 4.464-4.447 5.726-4.447 2.54 0 5.274 1.621 5.274 5.181 0 4.069-5.136 8.625-11 14.402z"/>,
+//   },
+//   {
+//     title: 'Strength Build',
+//     description: 'Develop power and resilience through expert-guided strength training tailored to all fitness levels.',
+//     icon: <path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/>,
+//   },
+//   {
+//     title: 'Fat Loss',
+//     description: 'Shed unwanted fat with dynamic workout routines and fat-burning strategies that deliver lasting results.',
+//     icon: <path d="M13.5 .67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z"/>,
+//   },
+//   {
+//     title: 'HIIT Workouts',
+//     description: 'Maximize calorie burn and improve fitness with short, intense high-intensity interval training sessions.',
+//     icon: <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.12-4.81-3.73-3.23 4.92-.42L12 5l1.92 4.53 4.92.42-3.73 3.23L16.23 18z"/>,
+//   },
+//   {
+//     title: 'Nutrition Guidance',
+//     description: 'Fuel your body right with personalized nutrition plans crafted to complement your training goals.',
+//     icon: <path d="M17 8C8 10 5.9 16.17 3.82 19.82A1 1 0 0 0 5 21c6-2 9-6 9-12zM9.27 15.73A3.49 3.49 0 0 0 7 15a3.5 3.5 0 0 0 3.5 3.5c.13 0 .25-.01.37-.02C10.62 17.62 10.1 16.6 9.27 15.73z"/>,
+//   },
+//   {
+//     title: 'Community Support',
+//     description: 'Train alongside a motivated community that pushes you to show up, stay consistent, and grow.',
+//     icon: <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>,
+//   },
+// ]
 
 const trainers = [
   {
